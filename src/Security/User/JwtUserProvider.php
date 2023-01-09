@@ -96,6 +96,20 @@ class JwtUserProvider implements JWTUserProviderInterface
     }
 
     /**
+     * {@inheritdoc}
+     */
+    public function loadUserByIdentifier(string $identifier): UserInterface
+    {
+        throw new UsernameNotFoundException(
+            sprintf(
+                '%1$s cannot load user "%2$s" by identifier. Use %1$s::loadUserByJWT instead.',
+                __CLASS__,
+                $identifier
+            )
+        );
+    }
+
+    /**
      * Returns the roles for the user.
      *
      * @param stdClass $jwt An encoded JWT.
