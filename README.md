@@ -2,13 +2,15 @@
 
 JWT Authentication bundle for Symfony
 
+>NOTE This is a fork that has a version 4 that can be installed with Symfony 6. We require this in 
+> our schiphol.nl project.
+
 [![Build Status](https://img.shields.io/circleci/project/github/auth0/jwt-auth-bundle/master.svg)](https://circleci.com/gh/auth0/jwt-auth-bundle) [![Total Downloads](https://img.shields.io/packagist/dt/auth0/jwt-auth-bundle)](https://packagist.org/packages/auth0/jwt-auth-bundle) [![Latest Stable Version](https://img.shields.io/packagist/v/auth0/jwt-auth-bundle?label=stable)](https://packagist.org/packages/auth0/jwt-auth-bundle) [![PHP Support](https://img.shields.io/packagist/php-v/auth0/jwt-auth-bundle)](https://packagist.org/packages/auth0/jwt-auth-bundle) [![Code Coverage](https://codecov.io/gh/auth0/jwt-auth-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/auth0/jwt-auth-bundle) [![License](https://img.shields.io/packagist/l/auth0/jwt-auth-bundle)](https://packagist.org/packages/auth0/jwt-auth-bundle) [![FOSSA](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fauth0%2Fjwt-auth-bundle.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fauth0%2Fjwt-auth-bundle?ref=badge_shield)
 
 ## Requirements
 
-- [PHP](http://php.net/) 7.4 or 8.0+
-- [Symfony](https://symfony.com/) 4.4 or 5.4.
-  - [Symfony 6 support is coming in the next major.](https://github.com/auth0/jwt-auth-bundle/issues/130)
+- [PHP](http://php.net/) 8.0+
+- [Symfony](https://symfony.com/) 5.4 or 6.
 
 ## Installation
 
